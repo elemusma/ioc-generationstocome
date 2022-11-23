@@ -20,7 +20,7 @@ wp_head();
 <body <?php body_class(); ?>>
 <?php
 if(get_field('body','options')) { the_field('body','options'); }
-echo '<div class="blank-space"></div>';
+echo '<div class="blank-space s"></div>';
 echo '<header class="position-relative pt-3 pb-3 z-3 box-shadow bg-white w-100" style="top:0;left:0;">';
 
 echo '<div class="nav">';
